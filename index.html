@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Paul's QuizApp</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<main role="main">
+		<div class="container">
+			<div class="innerElements">
+				<div id="startPage">
+					<h1>How well do you know drums?</h1>
+					<p>Simple instructions... <ol><li>Read the question.</li><li>Select the correct answer.</li> <li>Submit your answer to see how correct it is.</li></ol> (100% objective; facts only.)
+					</p>
+					<button class="buttons">Start Here</button>
+				</div>
+
+
+				<div id="displayCurrentQuestion"></div>
+				
+				<div id="questionsContainer">
+					<div id="displayFeedback"></div>
+					<div id="displayChoiceSelectors"></div>
+				</div>
+				<button class="buttons" id="nextQuestionButton">Let's move on</button>
+				<div id="resultsPage">
+					<div id="resultsScore"></div>
+					<button class="buttons" id="restartButton">Start Over</button>
+				</div>
+
+				<footer role="Display score and current question number">				
+					<div id="displayScoreQuestionBox">
+						<div id="displayQuestionIndex"></div>
+						<div id="displayCurrentScore"></div>
+					</div>
+				</footer>
+
+
+			</div>
+		</div>
+	</main>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	
+</body>
+</html>
+
+
+
