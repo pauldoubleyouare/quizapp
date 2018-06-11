@@ -1,0 +1,1 @@
+This is my first project created via jQuery, HTML, CSS, and JS. Thanks Thinkful! 
